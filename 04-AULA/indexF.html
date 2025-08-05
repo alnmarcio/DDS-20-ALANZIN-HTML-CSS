@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário</title>
+  </head>
+  <body>
+    <h1>Formulários</h1>
+    <!-- Caixa de nome com acessibilidade -->
+    <form action="" method="">
+      <fieldset>
+        <legend>Dados de Login</legend>
+
+        <label for="caixa-nome">Nome:</label>
+        <input
+          type="text"
+          id="caixa-nome"
+          placeholder="Digite aqui seu login"
+          maxlength="15"
+          min="5"
+        />
+
+        <br />
+        <br />
+
+        <label for="caixa-senha">Senha:</label>
+        <input
+          type="password"
+          id="caixa-senha"
+          placeholder="Digite aqui sua senha"
+          maxlength="15"
+          min="5"
+        />
+
+        <br />
+        <br />
+
+        <label for="email">E-mail:</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Digite aqui seu email"
+        />
+
+        <br />
+        <br />
+
+        <input type="submit" value="LOGIN" id="" />
+        <input type="reset" value="RESETAR" id="" />
+      </fieldset>
+    </form>
+
+    <!-- Outros inputs -->
+    <h1>OUTROS INPUTS</h1>
+
+    <label for="data"> Data:</label>
+    <input type="date" name="" id="data" />
+
+    <br />
+    <br />
+
+    <input type="datetime-local" id="horadata" />
+
+    <br />
+    <br />
+
+    <input type="time" name="" id="" />
+
+    <br />
+    <br />
+
+    <input type="color" name="" id="">
+
+    <br>
+    <br>
+
+    <label for="">Numero</label>
+    <input type="number" name="numero" id="" max="50" min="-10" placeholder="numero" value="0">
+
+    <br>
+    <br>
+
+    <label for="">Celular</label>
+    <input
+      type="tel"
+      name="celular"
+      id="celular"
+      placeholder="(00) 00000-0000"
+    />
+
+    <br />
+    <br />
+
+    <label for="textao"
+      >Descrição:
+      <textarea
+        name="textao"
+        id="textao"
+        cols="30"
+        rows="10"
+        placeholder="Descreva"
+      ></textarea>
+    </label>
+  </body>
+</html>
