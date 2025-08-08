@@ -1,0 +1,27 @@
+/* ESTILIZAÇÃO POR TAG */
+
+uL{
+    background-color: rgba(97, 46, 46, 0.774);
+}
+
+h1{
+    font-family: Impact, sans-serif;
+}
+
+/* ESTILIZAÇÂO POR ID */
+#caixa1{
+    background-color: darkolivegreen;
+}
+
+#caixa2{
+    background-color: rgba(92, 49, 133, 0.842);
+}
+
+/* ESTILIZAÇÃO POR CLASSE */
+.mini{
+    background-color: aliceblue;
+    margin: 20px;
+    width: 150px;
+    height: 80px;
+    display: inline-block;
+}
