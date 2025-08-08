@@ -24,4 +24,5 @@ h1{
     width: 150px;
     height: 80px;
     display: inline-block;
+    text-align: center;
 }
