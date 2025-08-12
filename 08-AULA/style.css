@@ -1,0 +1,9 @@
+#primaria{
+    width: 90%;
+    margin: auto;
+    height: 300px;
+    background-color: blue;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmi0XJol66MZ9EF9zM4wht1VBMQf-z8WB2NQ&s");
+    background-size: auto;
+    background-position: center;
+}
