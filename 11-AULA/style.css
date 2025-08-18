@@ -1,0 +1,49 @@
+body{
+    background-color: burlywood;
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    /* font-family: Impact; */
+}
+
+#bloco{
+    background-color: black;
+}
+
+.quad{
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    /* display: inline-block; */
+    /* display: inline; */
+}
+
+#quad1{
+    background-color: red;
+}
+
+#quad2{
+    background-color: yellow;
+}
+
+#quad3{
+    background-color: green;
+}
+
+
+
+#linhabloco{
+    background-color: rgb(165, 182, 182);
+    
+}
+
+#linha{
+    background-color: deeppink;
+}
+
+#grid{
+    background-color: orange;
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: auto auto;
+}
