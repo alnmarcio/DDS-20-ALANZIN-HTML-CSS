@@ -18,23 +18,6 @@ body{
     /* display: inline; */
 }
 
-#quad1{
-    background-color: rgb(165, 136, 21);
-}
-
-#quad2{
-    background-color: rgb(14, 11, 1);
-}
-
-#quad3{
-    background-color: rgb(220, 222, 255);
-}
-
-#quad4{
-    background-color: rgb(0, 255, 64);
-}
-
-
 #linhabloco{
     background-color: rgb(165, 182, 182);
     
@@ -69,6 +52,7 @@ body{
 
 #grid2{
     display: grid;
+    grid-gap: 10px;
     background-color: cadetblue;
     grid-template-rows: 200px 500px 100px;
     grid-template-columns: 30% 65%;
@@ -95,4 +79,41 @@ body{
 #rodape{
     grid-area:rodape;
     background-color: blueviolet;
+}
+
+#quad1{
+    background-color: rgb(235, 11, 11);
+}
+
+#quad2{
+    background-color: rgb(14, 11, 1);
+}
+
+#quad3{
+    background-color: rgb(0, 13, 255);
+}
+
+#quad4{
+    background-color: rgb(0, 255, 64);
+}
+
+#quad5{
+    background-color: rgb(238, 255, 5);
+}
+
+#quad6{
+    background-color: rgb(0, 225, 255);
+}
+
+
+#flex{
+    background-color: aliceblue;
+    min-height: 100%;
+    min-width: 100%;
+    gap: 10px;
+    display: flex;
+    /* flex-wrap: wrap;
+    flex-direction: column; */
+    flex-flow: column wrap;
+    justify-content: center;
 }
