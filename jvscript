@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conta Gotas - Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Cabeçalho -->
+  <header>
+    <div class="logo">
+      <img src="imagens/logo-campanha.png" alt="Logo Conta Gotas">
+      <img src="imagens/logo-ong.png" alt="Logo ONG Água para Todos">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="como-economizar.html">Como economizar</a></li>
+        <li><a href="jogos.html">Entretenimento</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Login -->
+  <section class="login">
+    <h2>Login de Voluntários</h2>
+    <form>
+      <input type="text" placeholder="Usuário" required>
+      <input type="password" placeholder="Senha" required>
+      <button type="submit">Entrar</button>
+    </form>
+  </section>
+
+  <!-- Vídeo Institucional -->
+  <section class="video">
+    <h2>Nosso Vídeo Institucional</h2>
+    <div class="video-container">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/aqz-KE-bpKQ" 
+        title="Vídeo Institucional" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </section>
+
+  <!-- Apoio -->
+  <section class="apoio">
+    <h2>Apoio</h2>
+    <div class="logos-apoio">
+      <img src="imagens/parceiro1.png" alt="Parceiro 1">
+      <img src="imagens/parceiro2.png" alt="Parceiro 2">
+      <img src="imagens/parceiro3.png" alt="Parceiro 3">
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 ONG Água para Todos - Projeto Conta Gotas</p>
+  </footer>
+</body>
+</html>
