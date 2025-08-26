@@ -1,0 +1,29 @@
+/*  Tipo de letra Arial e cor vermelha
+    Tipo de letra Times, com tamanho 22 e na cor verde
+    Tipo de letra Comic Sans Serif, com tamanho 20, na cor azul e estilo itálico
+    Formatar a fonte de uma página na cor amarela, em negrito, de tamanho 14, com espessura média e tipo de letra Verdana
+*/
+
+#regra1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+}
+#regra2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    background-color: greenyellow;
+}
+#regra3{
+    font-family: "Comic Sans MS", sans-serif;
+    font-size: 20px;
+    color: blue;
+    font-style: italic;
+}
+#regra4{
+    color: yellow;
+    font-weight: bolder;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:blueviolet;
+}
