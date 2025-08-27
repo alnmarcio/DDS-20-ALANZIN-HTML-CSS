@@ -1,0 +1,170 @@
+body{
+    background-color:#0a4b73;
+    height: 100%;
+    width: 100%;
+}
+
+header{
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+
+main{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    margin: 30px;
+    color: gray;
+}
+
+#inicio{
+    background-color: #2298e1;
+    width: 100%;
+    height: 200px;
+    margin: 30px;
+    display: grid;
+    grid-template: 2fr 2fr / 1fr 2fr 3fr;
+    grid-gap: 5px;
+}
+
+#meio{
+    background-color: #2298e1;
+    width: 100%;
+    height: 550px;
+    margin: 30px;
+    display: grid;
+    grid-template: 2fr 2fr / 1fr 2fr 3fr;
+    grid-gap: 5px;
+}
+
+#fim{
+    background-color: #2298e1;
+    width: 100%;
+    height: 300px;
+    margin: 30px;
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr 1fr;
+    grid-gap: 5px;
+}
+
+#logo{
+    background-color: #ffffff;
+    width: 200px;
+    height: 100px;
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#barrinha{
+    font-style: normal;
+    font-size: 50px;
+    background-color: #ffffff;
+    width: 1000px;
+    height: 100px;
+    margin: 50px;
+    left: 200px;
+    justify-content: left;
+}
+
+#meioum{
+    background-color: #ffffff;
+    width: 200px;
+    height: 100px;
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.fimdiv{
+    background-color: white;
+    margin: 5px;
+    width: 700px;
+    height: 250px;
+    padding: 20px;
+}
+
+#video{
+    background-color: white;
+    width: 1020px;
+    height: 520px;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#videoimg{
+    width: 1000px;
+    height: 500px;
+}
+
+#login{
+    color: gray;
+    font-size: 50px;
+    background-color: white;
+    grid-template: 2fr 2fr / 1fr 2fr 3fr;
+    grid-gap: 5px;
+    width: 1020px;
+    height: 520px;
+    margin: 30px;
+}
+
+form{
+
+}
+
+.inputBotao{
+    width: 100px;
+    color:black;
+    background-color: aliceblue;
+    border-radius: 15px;
+    border: none;
+    height: 40px;
+    margin-bottom: 15px;
+    font-weight: bolder;  
+    cursor: pointer; 
+}
+
+.inputForm{
+    width: 250px;
+    color:black;
+    background-color: aliceblue;
+    border-radius: 15px;
+    padding-left: 7px;
+    border: none;
+    height: 40px;
+    margin-bottom: 15px;
+}
+
+#banheiro{
+    color: gray;
+    font-size: 30px;
+    background-color: white;
+    grid-template: 2fr 2fr / 1fr 2fr 3fr;
+    grid-gap: 5px;
+    width: 1020px;
+    height: 520px;
+    margin: 30px;
+}
+
+#gotas{
+    color: gray;
+    font-size: 30px;
+    background-color: white;
+    grid-template: 2fr 2fr / 1fr 2fr 3fr;
+    grid-gap: 5px;
+    width: 1020px;
+    height: 520px;
+    margin: 30px;
+}

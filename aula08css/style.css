@@ -47,7 +47,7 @@ body{
     height: 600px;
     /* grid-template-rows: auto auto auto;
     grid-template-columns: auto auto; */
-    grid-template: 2fr 2fr / 1fr 2fr 3fr;
+    grid-template: 2fr 2fr 2fr;
     grid-gap: 10px;
     /* justify-items: center;
     align-items: center; 
