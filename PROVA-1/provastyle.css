@@ -149,22 +149,33 @@ form{
 
 #banheiro{
     color: gray;
-    font-size: 30px;
+    font-size: 25px;
     background-color: white;
     grid-template: 2fr 2fr / 1fr 2fr 3fr;
     grid-gap: 5px;
-    width: 1020px;
-    height: 520px;
-    margin: 30px;
+    width: 500px;
+    height: 500px;
+    margin: 35px;
 }
 
 #gotas{
     color: gray;
-    font-size: 30px;
+    font-size: 25px;
     background-color: white;
-    grid-template: 2fr 2fr / 1fr 2fr 3fr;
+    grid-template: 2fr 2fr / 2fr 2fr 2fr;
     grid-gap: 5px;
-    width: 1020px;
-    height: 520px;
-    margin: 30px;
+    width: 500px;
+    height: 500px;
+    margin: 35px;
+}
+
+#cozinha{
+    color: gray;
+    font-size: 25px;
+    background-color: white;
+    grid-template: 2fr 2fr / 2fr 2fr 2fr;
+    grid-gap: 5px;
+    width: 500px;
+    height: 500px;
+    margin: 35px;
 }
