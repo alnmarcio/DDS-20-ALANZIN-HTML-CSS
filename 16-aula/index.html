@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Olá, sou um título</h1>
+
+    <p> Algo aqui pra dizer que tem </p>
+    <p class="para"> Mais um texto top ai </p>
+    <p class="para" id="p3"> O farol das estrelas </p>
+
+    <h1> Transformers 4 - A era da extinção</h1>
+    <h1> Acabou </h1>
+
+    <h2 onclick="console.log('Eu cliquei')">
+        CLIQUE AQUI
+    </h2>
+
+    <h2 ondblclick="cliquei()">
+        AQUI NÃO PODE NÃO
+    </h2>
+
+    <h1 onclick="shazam()"> 
+        TROCA CORES 
+    </h1>
+
+    <h1 onclick="quemFoi(this)">
+        ALO
+    </h1>
+
+    <p onclick="quemFoi(this)"> 
+        Fazendo também
+    </p>
+
+    <br>
+    <hr>
+
+    <h1>OUTRA ÁREA</h1>
+    
+    Muda quando sai:
+    <!-- ONCHANGE = PEGA QUANDO MUDA O FOCO  -->
+    <input type="text" 
+    onchange="troca(this)">
+    <h3 id="textoTrocar">
+        TEXTO AQUI
+    </h3>
+
+    <br><br>
+
+    Muda quando digito:
+    <!-- ONINPUT = PEGA QUANDO HÁ ALTERAÇÕES NA CAIXINHA -->
+    <input type="text" 
+    oninput="trocaAgora(this)">
+    <h3 id="textoTrocaAgora">
+        TEXTO AQUI
+    </h3>
+
+
+    <h1 onmouseover="viraVerde(this)" 
+        onmouseout="viraAzul(this)">
+    OLHA ISSO AQUI
+    </h1>
+
+    <br><br><br><br><br>
+    <!-- <script src="script.js"></script> -->
+    <script src="interacao.js"></script>
+</body>
+</html>
